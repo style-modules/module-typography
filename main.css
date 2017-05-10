@@ -1,0 +1,45 @@
+p {
+  font-size: var(--text-size);
+  margin-bottom: var(--text-size);
+  margin-top: var(--text-size);
+}
+
+:--headings {
+  font-weight: var(--text-heading-thickness);
+}
+
+:--heading-1 {
+  font-size: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-1-scale-multiplier) + var(--text-size));
+  margin: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-1-spacing-multiplier) + var(--text-size) / 1.2) auto;
+}
+
+:--heading-2 {
+  font-size: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-2-scale-multiplier) + var(--text-size));
+  margin: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-2-spacing-multiplier) + var(--text-size) / 1.2) auto;
+}
+
+:--heading-3 {
+  font-size: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-3-scale-multiplier) + var(--text-size));
+  margin: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-3-spacing-multiplier) + var(--text-size) / 1.2) auto;
+}
+
+:--heading-4 {
+  font-size: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-4-scale-multiplier) + var(--text-size));
+  margin: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-4-spacing-multiplier) + var(--text-size) / 1.2) auto;
+}
+
+:--heading-5 {
+  font-size: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-5-scale-multiplier) + var(--text-size));
+  margin: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-5-spacing-multiplier) + var(--text-size) / 1.2) auto;
+}
+
+:--heading-6 {
+  font-size: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-6-scale-multiplier) + var(--text-size));
+  margin: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-6-spacing-multiplier) + var(--text-size) / 1.2) auto;
+}
+
+:--headings > small {
+  color: color(var(--text-color) lightness(+ 20%));
+  font-size: 60%;
+  font-weight: var(--text-heading-small-thickness);
+}
