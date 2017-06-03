@@ -19,7 +19,7 @@
     "serve": "gulp serve"
   },
   "dependencies": {
-    "base-default": "style-modules/base-default#05512c2"
+    "base-default": "style-modules/base-default#affc179"
   },
   "devDependencies": {
     "browser-sync": "2.x",
@@ -31,9 +31,9 @@
     "postcss-reporter": "3.x",
     "snazzy": "*",
     "standard": "*",
-    "stylelint": "*",
-    "stylelint-config-standard": "*",
-    "stylelint-order": "*",
-    "stylelint-rscss": "*"
+    "stylelint": "7.x",
+    "stylelint-config-standard": "16.x",
+    "stylelint-order": "0.4.x",
+    "stylelint-rscss": "0.4.x"
   }
 }
