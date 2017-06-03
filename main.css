@@ -9,37 +9,37 @@ p {
 }
 
 :--heading-1 {
-  font-size: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-1-scale-multiplier) + var(--text-size));
-  margin: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-1-spacing-multiplier) + var(--text-size) / 1.2) auto;
+  font-size: var(--text-heading-1);
+  margin: var(--text-heading-1);
 }
 
 :--heading-2 {
-  font-size: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-2-scale-multiplier) + var(--text-size));
-  margin: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-2-spacing-multiplier) + var(--text-size) / 1.2) auto;
+  font-size: var(--text-heading-2);
+  margin: var(--text-heading-2);
 }
 
 :--heading-3 {
-  font-size: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-3-scale-multiplier) + var(--text-size));
-  margin: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-3-spacing-multiplier) + var(--text-size) / 1.2) auto;
+  font-size: var(--text-heading-3);
+  margin: var(--text-heading-3);
 }
 
 :--heading-4 {
-  font-size: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-4-scale-multiplier) + var(--text-size));
-  margin: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-4-spacing-multiplier) + var(--text-size) / 1.2) auto;
+  font-size: var(--text-heading-4);
+  margin: var(--text-heading-4);
 }
 
 :--heading-5 {
-  font-size: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-5-scale-multiplier) + var(--text-size));
-  margin: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-5-spacing-multiplier) + var(--text-size) / 1.2) auto;
+  font-size: var(--text-heading-5);
+  margin: var(--text-heading-5);
 }
 
 :--heading-6 {
-  font-size: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-6-scale-multiplier) + var(--text-size));
-  margin: calc(var(--text-size) * var(--text-heading-scale) * var(--text-heading-6-spacing-multiplier) + var(--text-size) / 1.2) auto;
+  font-size: var(--text-heading-6);
+  margin: var(--text-heading-6);
 }
 
 :--headings > small {
-  color: color(var(--text-color) lightness(+ 20%));
-  font-size: 60%;
+  color: var(--text-heading-small-color);
+  font-size: var(--text-heading-small-size);
   font-weight: var(--text-heading-small-thickness);
 }
