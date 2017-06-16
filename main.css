@@ -1,3 +1,14 @@
+/*!
+ * Module-Typography (Style Modules Package)
+ * LICENSE: Creative Commons Zero 1.0 (aka CC0 1.0)
+ * https://github.com/style-modules/module-typography
+ */
+
+body {
+  color: var(--text-color);
+  font-family: var(--text-font);
+}
+
 p {
   font-size: var(--text-size);
   margin-bottom: var(--text-size);
@@ -10,32 +21,32 @@ p {
 
 :--heading-1 {
   font-size: var(--text-heading-1);
-  margin: var(--text-heading-1);
+  margin: var(--text-heading-1) var(--text-heading-spacing-sides);
 }
 
 :--heading-2 {
   font-size: var(--text-heading-2);
-  margin: var(--text-heading-2);
+  margin: var(--text-heading-2) var(--text-heading-spacing-sides);
 }
 
 :--heading-3 {
   font-size: var(--text-heading-3);
-  margin: var(--text-heading-3);
+  margin: var(--text-heading-3) var(--text-heading-spacing-sides);
 }
 
 :--heading-4 {
   font-size: var(--text-heading-4);
-  margin: var(--text-heading-4);
+  margin: var(--text-heading-4) var(--text-heading-spacing-sides);
 }
 
 :--heading-5 {
   font-size: var(--text-heading-5);
-  margin: var(--text-heading-5);
+  margin: var(--text-heading-5) var(--text-heading-spacing-sides);
 }
 
 :--heading-6 {
   font-size: var(--text-heading-6);
-  margin: var(--text-heading-6);
+  margin: var(--text-heading-6) var(--text-heading-spacing-sides);
 }
 
 :--headings > small {
