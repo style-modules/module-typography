@@ -6,6 +6,7 @@ style-modules/module-typography
 [![Build Status][build-image]][build-link]
 [![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)][graph-link]
 [![Open Issues][issues-image]][issues-link]
+[![Gitter][gitter-image]][gitter-link]
 
 > Typography Module for Style Modules
 
@@ -29,3 +30,5 @@ Or include via RawGit
 [graph-link]: https://github.com/style-modules/module-typography/graphs/contributors
 [issues-image]: https://img.shields.io/github/issues/style-modules/module-typography.svg
 [issues-link]: https://github.com/style-modules/module-typography/issues
+[gitter-image]: https://badges.gitter.im/style-modules.svg
+[gitter-link]: https://gitter.im/style-modules
