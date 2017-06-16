@@ -2,7 +2,7 @@
   "name": "style-modules-module-typography",
   "version": "0.1.0",
   "description": "Typography Module for Style Modules",
-  "license": "MIT",
+  "license": "CC0",
   "repository": "style-modules/module-typography",
   "bugs": "https://github.com/style-modules/module-typography/issues",
   "author": "Samuel Champagne <iron@firemail.cc> (http://SamuelChampagne.com)",
@@ -19,7 +19,7 @@
     "serve": "gulp serve"
   },
   "dependencies": {
-    "base-default": "style-modules/base-default#affc179"
+    "base-default": "style-modules/base-default#ee3ea65"
   },
   "devDependencies": {
     "browser-sync": "2.x",
