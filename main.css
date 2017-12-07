@@ -5,6 +5,7 @@
  */
 
 body {
+  box-sizing: border-box;
   color: var(--text-color);
   font-family: var(--text-font);
 }
@@ -15,42 +16,47 @@ p {
   margin-top: var(--text-size);
 }
 
-:--headings {
+small {
+  font-size: var(--text-small-size);
+}
+
+:--headings,
+:--headings-display {
   font-weight: var(--text-heading-thickness);
 }
 
 :--heading-1 {
   font-size: var(--text-heading-1);
-  margin: var(--text-heading-1) var(--text-heading-spacing-sides);
+  margin: var(--text-heading-1-spacing);
 }
 
 :--heading-2 {
   font-size: var(--text-heading-2);
-  margin: var(--text-heading-2) var(--text-heading-spacing-sides);
+  margin: var(--text-heading-2-spacing);
 }
 
 :--heading-3 {
   font-size: var(--text-heading-3);
-  margin: var(--text-heading-3) var(--text-heading-spacing-sides);
+  margin: var(--text-heading-3-spacing);
 }
 
 :--heading-4 {
   font-size: var(--text-heading-4);
-  margin: var(--text-heading-4) var(--text-heading-spacing-sides);
+  margin: var(--text-heading-4-spacing);
 }
 
 :--heading-5 {
   font-size: var(--text-heading-5);
-  margin: var(--text-heading-5) var(--text-heading-spacing-sides);
+  margin: var(--text-heading-5-spacing);
 }
 
 :--heading-6 {
   font-size: var(--text-heading-6);
-  margin: var(--text-heading-6) var(--text-heading-spacing-sides);
+  margin: var(--text-heading-6-spacing);
 }
 
-:--headings > small {
+:--headings > small,
+:--headings-display > small {
   color: var(--text-heading-small-color);
-  font-size: var(--text-heading-small-size);
   font-weight: var(--text-heading-small-thickness);
 }

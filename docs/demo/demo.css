@@ -1,5 +1,5 @@
 /* Base Config */
-@import "base-default";
+@import "../../../base-default/main.css";
 
 /* Modules */
 @import "../../main.css"; /* Module-Typography */

@@ -21,6 +21,7 @@
  * https://github.com/style-modules/module-typography
  */
 body {
+  box-sizing: border-box;
   color: hsl(0, 0%, 20%);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -31,6 +32,9 @@ p {
   margin-bottom: 1rem;
   margin-top: 16px;
   margin-top: 1rem;
+}
+small {
+  font-size: 80%;
 }
 h1,
 .heading-1,
@@ -43,50 +47,54 @@ h4,
 h5,
 .heading-5,
 h6,
-.heading-6 {
+.heading-6,
+.display-1
+  .display-2
+  .display-3
+  .display-4 {
   font-weight: normal;
 }
 h1,
 .heading-1 {
-  font-size: 64px;
-  font-size: 4rem;
-  margin: 64px auto;
-  margin: 4rem auto;
+  font-size: 40px;
+  font-size: 2.5rem;
+  margin: 32px 0 8px;
+  margin: 2rem 0 0.5rem;
 }
 h2,
 .heading-2 {
-  font-size: 56px;
-  font-size: 3.5rem;
-  margin: 56px auto;
-  margin: 3.5rem auto;
+  font-size: 36.8px;
+  font-size: 2.3rem;
+  margin: 32px 0 8px;
+  margin: 2rem 0 0.5rem;
 }
 h3,
 .heading-3 {
-  font-size: 48px;
-  font-size: 3rem;
-  margin: 48px auto;
-  margin: 3rem auto;
+  font-size: 35.2px;
+  font-size: 2.2rem;
+  margin: 32px 0 8px;
+  margin: 2rem 0 0.5rem;
 }
 h4,
 .heading-4 {
-  font-size: 40px;
-  font-size: 2.5rem;
-  margin: 40px auto;
-  margin: 2.5rem auto;
+  font-size: 32px;
+  font-size: 2rem;
+  margin: 32px 0 8px;
+  margin: 2rem 0 0.5rem;
 }
 h5,
 .heading-5 {
-  font-size: 32px;
-  font-size: 2rem;
-  margin: 32px auto;
-  margin: 2rem auto;
+  font-size: 28.8px;
+  font-size: 1.8rem;
+  margin: 32px 0 8px;
+  margin: 2rem 0 0.5rem;
 }
 h6,
 .heading-6 {
-  font-size: 24px;
-  font-size: 1.5rem;
-  margin: 24px auto;
-  margin: 1.5rem auto;
+  font-size: 25.6px;
+  font-size: 1.6rem;
+  margin: 32px 0 8px;
+  margin: 2rem 0 0.5rem;
 }
 h1 > small,
 .heading-1 > small,
@@ -99,9 +107,12 @@ h4 > small,
 h5 > small,
 .heading-5 > small,
 h6 > small,
-.heading-6 > small {
+.heading-6 > small,
+.display-1
+  .display-2
+  .display-3
+  .display-4 > small {
   color: rgb(102, 102, 102);
-  font-size: 60%;
   font-weight: inherit;
 }
 /* Module-Typography */
