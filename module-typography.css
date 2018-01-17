@@ -1,0 +1,108 @@
+/*!
+ * Module-Typography (Style Modules Package)
+ * LICENSE: Creative Commons Zero 1.0 (aka CC0 1.0)
+ * https://github.com/style-modules/module-typography
+ */
+
+body {
+  color: var(--base-text-color);
+  font-family: var(--font);
+}
+
+p {
+  font-size: var(--base-text-size);
+  margin-bottom: var(--base-text-size);
+  margin-top: var(--base-text-size);
+}
+
+small {
+  font-size: var(--base-text-small-size);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.typography-heading,
+.typography-display {
+  font-weight: var(--heading-thickness);
+}
+
+h1,
+.typography-heading.-tier1 {
+  font-size: var(--heading-1);
+  margin: var(--heading-1-spacing);
+}
+
+h2,
+.typography-heading.-tier2 {
+  font-size: var(--heading-2);
+  margin: var(--heading-2-spacing);
+}
+
+h3,
+.typography-heading.-tier3 {
+  font-size: var(--heading-3);
+  margin: var(--heading-3-spacing);
+}
+
+h4,
+.typography-heading.-tier4 {
+  font-size: var(--heading-4);
+  margin: var(--heading-4-spacing);
+}
+
+h5,
+.typography-heading.-tier5 {
+  font-size: var(--heading-5);
+  margin: var(--heading-5-spacing);
+}
+
+h6,
+.typography-heading.-tier6 {
+  font-size: var(--heading-6);
+  margin: var(--heading-6-spacing);
+}
+
+.typography-display.-tier1 { /* TODO */
+  font-size: var(--heading-6);
+  margin: var(--heading-6-spacing);
+}
+
+.typography-display.-tier2 { /* TODO */
+  font-size: var(--heading-6);
+  margin: var(--heading-6-spacing);
+}
+
+.typography-display.-tier3 { /* TODO */
+  font-size: var(--heading-6);
+  margin: var(--heading-6-spacing);
+}
+
+.typography-display.-tier4 { /* TODO */
+  font-size: var(--heading-6);
+  margin: var(--heading-6-spacing);
+}
+
+h1 > small,
+h2 > small,
+h3 > small,
+h4 > small,
+h5 > small,
+h6 > small,
+.typography-heading.-tier1 > small,
+.typography-heading.-tier2 > small,
+.typography-heading.-tier3 > small,
+.typography-heading.-tier4 > small,
+.typography-heading.-tier5 > small,
+.typography-heading.-tier6 > small,
+.typography-display.-tier1 > small,
+.typography-display.-tier2 > small,
+.typography-display.-tier3 > small,
+.typography-display.-tier4 > small {
+  color: var(--heading-small-color);
+  font-size: var(--heading-small-size);
+  font-weight: var(--heading-small-thickness);
+}
