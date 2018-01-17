@@ -11,30 +11,26 @@
     "css",
     "framework"
   ],
-  "style": "main.css",
+  "style": "module-typography.css",
+  "engines" : {
+    "node" : ">=8.x"
+  },
   "scripts": {
-    "test": "standard | snazzy && stylelint \"*.css\"",
-    "build": "gulp",
-    "serve": "gulp serve"
+    "test": "standard && stylelint \"*.css\"",
+    "demo": "gulp"
   },
   "dependencies": {
-    "base-default": "style-modules/base-default#ee3ea65"
+    "@style-modules/base-default": "style-modules/base-default#8423ed3"
   },
   "devDependencies": {
-    "browser-sync": "2.x",
-    "cz-conventional-changelog": "^2.1.0",
-    "gulp": "3.x",
-    "gulp-postcss": "6.x",
-    "gulp-sourcemaps": "2.x",
-    "postcss-cssnext": "2.x",
-    "postcss-import": "9.x",
-    "postcss-reporter": "3.x",
-    "snazzy": "*",
-    "standard": "*",
-    "stylelint": "7.x",
-    "stylelint-config-standard": "16.x",
-    "stylelint-order": "0.4.x",
-    "stylelint-rscss": "0.4.x"
+    "browser-sync": "2.18.13",
+    "cz-conventional-changelog": "2.1.0",
+    "gulp": "3.9.1",
+    "standard": "10.0.3",
+    "stylelint": "8.3.1",
+    "stylelint-config-standard": "18.0.0",
+    "stylelint-order": "0.8.0",
+    "stylelint-rscss": "0.4.0"
   },
   "config": {
     "commitizen": {
